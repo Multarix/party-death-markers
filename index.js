@@ -52,16 +52,26 @@ module.exports = function PartyDeathMarkers(mod) {
   }
 
   function getMarker(classid) {
+    let markerID;
     switch (classid) {
+      // Tanks: Brawler & Lancer
       case 1:
       case 10:
-        return 91177
+        markerID = 89542; // Blue Beacon
+        break;
+
+      // Healers: Mystic & Priest
       case 6:
       case 7:
-        return 91113
+        markerID = 89543; // Purple Beacon
+        break;
+
+      // Everyone else
       default:
-        return 98260
+        markerID = 206960; // Red Beacon
+        break;
     }
+    return markerID;
   }
 
   function removeMarker(member) {
