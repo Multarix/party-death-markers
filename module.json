@@ -1,13 +1,12 @@
 {
     "disableAutoUpdate": false,
     "name": "party-death-markers",
-    "author": "teralove",
+    "author": "teralove (forked by Multarix)",
     "description": "Spawn beacons on top of dead party members.",
-    "version": "9/16/2019",
-    "donationUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=PXRFYB39SQP4A",
+    "version": "v97",
     "options": {
         "niceName": "Party Death Markers"
     },
-    "servers": ["https://raw.githubusercontent.com/teralove/party-death-markers/master/"],
-    "supportUrl": "https://github.com/teralove/party-death-markers/issues/"
+    "servers": ["https://raw.githubusercontent.com/Multarix/party-death-markers/master/"],
+    "supportUrl": "https://github.com/Multarix/party-death-markers/issues/"
 }
